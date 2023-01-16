@@ -1,22 +1,22 @@
 package com.driver;
 
-public class Main {
-    static class Product {
-        // Task 3
-        public int product(int x, int y) {
-            return x * y;
-        }
-
-        // Task 4
-        public int product(int x, int y, int z) {
-            return x * y * z;
-        }
-
-        // Task 5
-        public double product(double x, double y) {
-            return x * y;
-        }
+class Product {
+    // Task 3
+    public int product(int x, int y) {
+        return x * y;
     }
+
+    // Task 4
+    public int product(int x, int y, int z) {
+        return x * y * z;
+    }
+
+    // Task 5
+    public double product(double x, double y) {
+        return x * y;
+    }
+}
+public class Main {
     public static void main(String[] args) {
 
         // Task 1
